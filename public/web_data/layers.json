@@ -1,0 +1,432 @@
+{
+  "bounds_wgs84": [
+    6.013261,
+    7.655216,
+    6.889182,
+    8.834808
+  ],
+  "center": [
+    8.245012000000001,
+    6.4512215
+  ],
+  "layers": [
+    {
+      "id": "susceptibility_class",
+      "title": "Flood susceptibility (classes)",
+      "group": "Static map",
+      "kind": "class",
+      "legend": [
+        {
+          "label": "Very low",
+          "color": "#2c7bb6"
+        },
+        {
+          "label": "Low",
+          "color": "#abd9e9"
+        },
+        {
+          "label": "Moderate",
+          "color": "#ffffbf"
+        },
+        {
+          "label": "High",
+          "color": "#fdae61"
+        },
+        {
+          "label": "Very high",
+          "color": "#d7191c"
+        }
+      ],
+      "note": "Relative susceptibility from terrain, drainage and surface factors (AHP). Not a flood depth or probability.",
+      "tiles": "tiles/susceptibility_class/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "susceptibility_index",
+      "title": "Flood susceptibility index (0-1)",
+      "group": "Static map",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Continuous susceptibility index rescaled to 0-1 over Lokoja LGA.",
+      "tiles": "tiles/susceptibility_index/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "exposure_index",
+      "title": "Exposure index (0-1)",
+      "group": "Static map",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Population, buildings and roads within 500 m, combined with AHP weights.",
+      "tiles": "tiles/exposure_index/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "risk_class",
+      "title": "Environmental flood risk (classes)",
+      "group": "Static map",
+      "kind": "class",
+      "legend": [
+        {
+          "label": "Very low",
+          "color": "#2c7bb6"
+        },
+        {
+          "label": "Low",
+          "color": "#abd9e9"
+        },
+        {
+          "label": "Moderate",
+          "color": "#ffffbf"
+        },
+        {
+          "label": "High",
+          "color": "#fdae61"
+        },
+        {
+          "label": "Very high",
+          "color": "#d7191c"
+        }
+      ],
+      "note": "Susceptibility x exposure. A relative ranking inside Lokoja LGA, not an expected loss.",
+      "tiles": "tiles/risk_class/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "risk_index",
+      "title": "Environmental flood risk index (0-1)",
+      "group": "Static map",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Susceptibility x exposure, continuous.",
+      "tiles": "tiles/risk_index/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "dti_lead0",
+      "title": "Rain and soil-wetness trigger, now",
+      "group": "Dynamic (issued 2026-11-16)",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding.",
+      "tiles": "tiles/dti_lead0/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "fri_lead0",
+      "title": "Flood-risk index (susceptibility x trigger), now",
+      "group": "Dynamic (issued 2026-11-16)",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding.",
+      "tiles": "tiles/fri_lead0/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "dti_lead1",
+      "title": "Rain and soil-wetness trigger, +24 h",
+      "group": "Dynamic (issued 2026-11-16)",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding.",
+      "tiles": "tiles/dti_lead1/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "fri_lead1",
+      "title": "Flood-risk index (susceptibility x trigger), +24 h",
+      "group": "Dynamic (issued 2026-11-16)",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding.",
+      "tiles": "tiles/fri_lead1/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "dti_lead2",
+      "title": "Rain and soil-wetness trigger, +48 h",
+      "group": "Dynamic (issued 2026-11-16)",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding.",
+      "tiles": "tiles/dti_lead2/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    },
+    {
+      "id": "fri_lead2",
+      "title": "Flood-risk index (susceptibility x trigger), +48 h",
+      "group": "Dynamic (issued 2026-11-16)",
+      "kind": "continuous",
+      "legend": [
+        {
+          "label": "0.00",
+          "color": "#ffffcc"
+        },
+        {
+          "label": "0.25",
+          "color": "#fed976"
+        },
+        {
+          "label": "0.50",
+          "color": "#fd8d3c"
+        },
+        {
+          "label": "0.75",
+          "color": "#e31a1c"
+        },
+        {
+          "label": "1.00",
+          "color": "#800026"
+        }
+      ],
+      "note": "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding.",
+      "tiles": "tiles/fri_lead2/{z}/{x}/{y}.png",
+      "minzoom": 8,
+      "maxzoom": 12,
+      "bounds_wgs84": [
+        6.013261,
+        7.655216,
+        6.889182,
+        8.834808
+      ]
+    }
+  ]
+}

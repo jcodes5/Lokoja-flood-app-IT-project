@@ -1,0 +1,288 @@
+{
+  "susceptibility_exposure": [
+    {
+      "zone": "1 Very low",
+      "area_km2": "83.86",
+      "area_percent": "2.62",
+      "people": "624",
+      "people_percent": "0.17",
+      "buildings": "90",
+      "buildings_percent": "0.11",
+      "road_km": "39.7",
+      "road_percent": "0.99",
+      "facilities_health": "0"
+    },
+    {
+      "zone": "2 Low",
+      "area_km2": "1164.37",
+      "area_percent": "36.42",
+      "people": "34134",
+      "people_percent": "9.44",
+      "buildings": "5931",
+      "buildings_percent": "7.37",
+      "road_km": "1027.9",
+      "road_percent": "25.74",
+      "facilities_health": "12"
+    },
+    {
+      "zone": "3 Moderate",
+      "area_km2": "1678.15",
+      "area_percent": "52.49",
+      "people": "224249",
+      "people_percent": "62.00",
+      "buildings": "50787",
+      "buildings_percent": "63.10",
+      "road_km": "2519.6",
+      "road_percent": "63.10",
+      "facilities_health": "69"
+    },
+    {
+      "zone": "4 High",
+      "area_km2": "209.39",
+      "area_percent": "6.55",
+      "people": "98272",
+      "people_percent": "27.17",
+      "buildings": "22942",
+      "buildings_percent": "28.50",
+      "road_km": "395.1",
+      "road_percent": "9.90",
+      "facilities_health": "37"
+    },
+    {
+      "zone": "5 Very high",
+      "area_km2": "8.10",
+      "area_percent": "0.25",
+      "people": "3207",
+      "people_percent": "0.89",
+      "buildings": "627",
+      "buildings_percent": "0.78",
+      "road_km": "7.4",
+      "road_percent": "0.18",
+      "facilities_health": "0"
+    },
+    {
+      "zone": "permanent water / unscored",
+      "area_km2": "53.50",
+      "area_percent": "1.67",
+      "people": "1184",
+      "people_percent": "0.33",
+      "buildings": "112",
+      "buildings_percent": "0.14",
+      "road_km": "3.1",
+      "road_percent": "0.08",
+      "facilities_health": "0"
+    }
+  ],
+  "risk_exposure": [
+    {
+      "zone": "1 Very low",
+      "area_km2": "628.78",
+      "area_percent": "19.67",
+      "people": "0",
+      "people_percent": "0.00",
+      "buildings": "0",
+      "buildings_percent": "0.00",
+      "road_km": "0.0",
+      "road_percent": "0.00",
+      "facilities_health": "1"
+    },
+    {
+      "zone": "2 Low",
+      "area_km2": "628.78",
+      "area_percent": "19.67",
+      "people": "0",
+      "people_percent": "0.00",
+      "buildings": "19",
+      "buildings_percent": "0.02",
+      "road_km": "15.7",
+      "road_percent": "0.39",
+      "facilities_health": "1"
+    },
+    {
+      "zone": "3 Moderate",
+      "area_km2": "628.78",
+      "area_percent": "19.67",
+      "people": "4",
+      "people_percent": "0.00",
+      "buildings": "72",
+      "buildings_percent": "0.09",
+      "road_km": "714.8",
+      "road_percent": "17.90",
+      "facilities_health": "1"
+    },
+    {
+      "zone": "4 High",
+      "area_km2": "628.78",
+      "area_percent": "19.67",
+      "people": "5365",
+      "people_percent": "1.48",
+      "buildings": "713",
+      "buildings_percent": "0.89",
+      "road_km": "1221.1",
+      "road_percent": "30.58",
+      "facilities_health": "3"
+    },
+    {
+      "zone": "5 Very high",
+      "area_km2": "628.78",
+      "area_percent": "19.67",
+      "people": "355115",
+      "people_percent": "98.19",
+      "buildings": "79573",
+      "buildings_percent": "98.86",
+      "road_km": "2038.2",
+      "road_percent": "51.05",
+      "facilities_health": "112"
+    },
+    {
+      "zone": "permanent water / unscored",
+      "area_km2": "53.50",
+      "area_percent": "1.67",
+      "people": "1184",
+      "people_percent": "0.33",
+      "buildings": "112",
+      "buildings_percent": "0.14",
+      "road_km": "3.1",
+      "road_percent": "0.08",
+      "facilities_health": "0"
+    }
+  ],
+  "observed_floods_exposure": [
+    {
+      "zone": "observed flood 2018",
+      "area_km2": "203.96",
+      "area_percent": "6.38",
+      "people": "4121",
+      "people_percent": "1.14",
+      "buildings": "302",
+      "buildings_percent": "0.38",
+      "road_km": "167.1",
+      "road_percent": "4.19",
+      "facilities_health": "1"
+    },
+    {
+      "zone": "observed flood 2022",
+      "area_km2": "220.39",
+      "area_percent": "6.89",
+      "people": "5083",
+      "people_percent": "1.41",
+      "buildings": "464",
+      "buildings_percent": "0.58",
+      "road_km": "182.6",
+      "road_percent": "4.57",
+      "facilities_health": "1"
+    },
+    {
+      "zone": "observed flood either",
+      "area_km2": "264.13",
+      "area_percent": "8.26",
+      "people": "5986",
+      "people_percent": "1.66",
+      "buildings": "516",
+      "buildings_percent": "0.64",
+      "road_km": "229.1",
+      "road_percent": "5.74",
+      "facilities_health": "1"
+    },
+    {
+      "zone": "whole LGA",
+      "area_km2": "3197.38",
+      "area_percent": "100.00",
+      "people": "361668",
+      "people_percent": "100.00",
+      "buildings": "80489",
+      "buildings_percent": "100.00",
+      "road_km": "3992.7",
+      "road_percent": "100.00",
+      "facilities_health": "118"
+    }
+  ],
+  "validation": [
+    {
+      "event": "2018",
+      "domain_cells": "2811995",
+      "flooded_cells": "225513",
+      "flooded_percent": "8.0197",
+      "auc_all_cells": "0.8601",
+      "quality_band": "good",
+      "auc_thinned": "0.8209",
+      "ci_low": "0.8159",
+      "ci_high": "0.8253",
+      "thinned_flooded": "5833",
+      "thinned_not_flooded": "35018"
+    },
+    {
+      "event": "2022",
+      "domain_cells": "2811995",
+      "flooded_cells": "243902",
+      "flooded_percent": "8.6736",
+      "auc_all_cells": "0.8512",
+      "quality_band": "good",
+      "auc_thinned": "0.8120",
+      "ci_low": "0.8075",
+      "ci_high": "0.8161",
+      "thinned_flooded": "5914",
+      "thinned_not_flooded": "35000"
+    },
+    {
+      "event": "either",
+      "domain_cells": "2811995",
+      "flooded_cells": "292088",
+      "flooded_percent": "10.3872",
+      "auc_all_cells": "0.8533",
+      "quality_band": "good",
+      "auc_thinned": "0.8119",
+      "ci_low": "0.8074",
+      "ci_high": "0.8166",
+      "thinned_flooded": "6254",
+      "thinned_not_flooded": "34828"
+    }
+  ],
+  "forecast": {
+    "issue_date": "2026-11-16",
+    "soil_product": "smap",
+    "weights": {
+      "rain": 0.75,
+      "soil": 0.25
+    },
+    "soil_moisture_note": "latest available day, same value for all lead times",
+    "leads": [
+      {
+        "lead_days": 0,
+        "valid_date": "2026-11-16",
+        "rain_score_mean": 0.11903113166144955,
+        "soil_score_mean": 0.12679417389926764,
+        "dti_mean": 0.11739827035394255,
+        "fri_mean": 0.05062049139430387,
+        "fri_max": 0.4677109722544356,
+        "max48_prev14_mm_mean": 4.58542190229492
+      },
+      {
+        "lead_days": 1,
+        "valid_date": "2026-11-17",
+        "rain_score_mean": 0.10799125886038806,
+        "soil_score_mean": 0.12679417389926764,
+        "dti_mean": 0.11549515343209028,
+        "fri_mean": 0.04974470685647382,
+        "fri_max": 0.4677109722544356,
+        "max48_prev14_mm_mean": 4.265285092340334
+      },
+      {
+        "lead_days": 2,
+        "valid_date": "2026-11-18",
+        "rain_score_mean": 0.10799125886038806,
+        "soil_score_mean": 0.12679417389926764,
+        "dti_mean": 0.11549515343209028,
+        "fri_mean": 0.04974470685647382,
+        "fri_max": 0.4677109722544356,
+        "max48_prev14_mm_mean": 4.265285092340334
+      }
+    ]
+  },
+  "caveats": [
+    "Susceptibility is a relative index of terrain and surface conditions; it is not a flood depth or probability.",
+    "Risk is a relative ranking inside Lokoja LGA, not an expected loss.",
+    "Flood extents used for validation come from radar, which misses flooding among buildings.",
+    "Local rainfall and soil-wetness trigger. It does not include river flow from the Niger and Benue, so it is not a forecast of river flooding."
+  ]
+}
